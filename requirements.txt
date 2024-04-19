@@ -9,7 +9,7 @@ num2words
 numpy
 sentencepiece
 spacy==3.5.2
-torch>=2.0.0
+torch>=2.2.0
 torchaudio>=2.0.0
 huggingface_hub
 tqdm
@@ -20,3 +20,4 @@ librosa
 gradio
 torchmetrics
 encodec
+aiohttp>=3.9.4 # not directly required, pinned by Snyk to avoid a vulnerability
